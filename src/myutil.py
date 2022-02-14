@@ -5,5 +5,5 @@ def sum(numbers):
     for x in numbers:
         total += x
     return total
-print(sum((8, 2, 3, 0, 7)))
+#print(sum((8, 2, 3, 0, 7)))
 

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='myutility_internal',
-    version='0.0.1',
+    version='99.0.1',
     description='This is an internal utility that will process numbers.',
     py_modules=["myutility_internal"],
     package_dir={'': 'src'},
