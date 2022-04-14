@@ -1,14 +1,15 @@
-from setuptools import setup
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='myutility_internal',
-    version='99.0.1',
+    version='99.0.7',
     description='This is an internal utility that will process numbers.',
     py_modules=["myutility_internal"],
-    package_dir={'': 'src'},
+   # package_dir={'': 'advcalc'},
+   packages=setuptools.find_packages(),
     extras_require={
         "dev": [
             "pytest >= 3.7",

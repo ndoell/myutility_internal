@@ -2,16 +2,17 @@
 
 from time import sleep
 
+ 
 
 def sum(numbers):
-    total = 0
-    for x in numbers:
-        total += x
-    return total
-    #print(sum((8, 2, 3, 0, 7)))
+  total = 0
+  for x in numbers:
+      total += x
+  return total
+  #print(sum((8, 2, 3, 0, 7)))
 
 print("Don't worry I will take care of your data for you.")
-sleep(3)
+sleep(2)
 print("...")
 print(r"""
 QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
